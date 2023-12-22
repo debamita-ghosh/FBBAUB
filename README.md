@@ -12,3 +12,10 @@ Our code can be divided into three significant steps:
 **Step 3:** Use the file Error Probability Plot of FB-BAUB LSE SeqHav SR.py to generate the relevant plots as given in the paper.
 
 **Note:** Store all the error probability values for each of the algorithms in the folder named **data/proberr**.
+
+**Requirements**
+
+To install requirements
+
+pip install -r requirements.txt
+
