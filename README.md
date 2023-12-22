@@ -1,21 +1,14 @@
-**FBBAUB-**
+**FBBAUB: Fixed Budget Best Arm in Unimodal Bandits**
 
-Our code can be divided into three major steps:
+Our code can be divided into three significant steps:
 
-*Step-1*
+**Step 1:** Use the file unimodal_expt.m to generate unimodal instances for four different experiments as given in the paper.
 
-Generate unimodal instances for four different experiments as given in the paper using the file xxx.py.
+**Step 2:** 
+(a) For each unimodal instance run the algorithms FBBAUB, LSE and Sequential Halving using the file FBBAUB_LSE_SeqHalv.m.
 
-*Step-2*
+(b) For each unimodal instance run the algorithm Successive Reject using the file Successive Rejects.py.
 
-Use the above generated unimodal instances to run the algorithms FBBAUB, LSE and Sequential Halving using the file yyy.m.
+**Step 3:** Use the file Error Probability Plot of FB-BAUB LSE SeqHav SR.py to generate the relevant plots as given in the paper.
 
-Use the above generated unimodal instances to run the algorithms successive rejects using the file zzz.py.
-
-*Step-3*
-
-Use the file to generate the relevant plots as given in the paper.
-
-**Note**
-
-Store all the error probabilty values for each of the algorithms in the folder named as data/proberr
+**Note:** Store all the error probability values for each of the algorithms in the folder named **data/proberr**.
